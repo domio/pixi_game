@@ -1,0 +1,23 @@
+{
+    "name": "grid-creator",
+    "authors": [
+        "tech <tech@nethouse.ru>"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "pixi.js": "=3.0.6",
+        "lodash": "3.9.3",
+        "gl-matrix": "2.2.0"
+    },
+    "main": [
+        "dist/js/game.js",
+        "dist/js/game.min.js"
+    ],
+    "ignore": [
+        "node_modules",
+        "dist/bower_components",
+        "src/views",
+        "gulpfile.js",
+        ".bowerrc"
+    ]
+}
